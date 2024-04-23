@@ -4,8 +4,10 @@
 /*Sedan*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sedan&display=swap');
 :root{
-    --background-header-yellow : #F5DC71;
-}
+    --background-header-blue : #073366;
+    --background-footer-red: #A90A1D;
+    --font-white:#fff;
+  }
 * {
   margin: 0;
   padding: 0;
@@ -21,11 +23,12 @@ header{
     font-size: 13px;
 }
 .title-header{
-  background-color: var(--background-header-yellow);
+  background-color: var(--background-header-blue);
+  color: var(--font-white);
   padding: 30px;
 }
 .navbar {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding: 5px ;
 }
@@ -217,3 +220,14 @@ main{
     right: 10%;
     bottom: 10%;
   }
+  /*=======Footer Section=======*/
+  footer {
+    text-align: center;
+    background-color: var(--background-footer-red);
+    color: var(--font-white);
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
