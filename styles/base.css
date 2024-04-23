@@ -103,7 +103,7 @@ main{
   }
 
   /* Styles for card title */
-  .card-title {
+  .card h2{
     font-size: 20px;
     margin-bottom: 10px;
     background-color: #F5DC71;
