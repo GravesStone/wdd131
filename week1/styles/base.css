@@ -1,0 +1,206 @@
+/*import fonts*/
+/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Sedan*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sedan&display=swap');
+:root{
+    --background-header-yellow : #F5DC71;
+}
+
+body {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 150px; 
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+  }
+header{
+    text-align: center;
+    background-color: var(--background-header-yellow);
+    font-size: 13px;
+    padding: 10px;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 290px;
+    font-family: "Sedan", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.menu li {
+    padding: 0 10px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: var(--background-header-yellow);
+}
+/*=============Main Section================*/
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f0f0f0;
+}
+
+/*container */
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    padding: 100px;
+
+  }
+
+  /* Styles for individual cards */
+  .card {
+    width: 800px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px 0px;
+    
+  }
+
+  /* Styles for card title */
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #F5DC71;
+    padding: 20px;
+    font-family: "Sedan", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  /* Styles for card content */
+  .card-content {
+    color: #333;
+    display: flex;
+    padding: 20px;
+  }
+  .card-content article{
+    font-size: 20px;
+}
+  .card-content img{
+    max-height: 250px;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+    
+    #title-header{
+        text-align: center;
+    }
+    hr {
+        width: 65%;
+    }
+    .second-layer{
+        font-size: 20px;
+        color: #333;
+        display: flex;
+        padding:30px;
+       
+    }
+    #flag-name{
+        position: absolute;
+        bottom:-48%;
+        left: 10%;
+    }
+    .second-layer-image{
+        font-size: 15px;
+        color: #333;
+        display: grid;
+        padding:30px 20px;
+        
+    }
+    .second-layer img{  
+        max-height: 300px;
+        max-width: 250px;  
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
+    .card-content-layer2{
+        padding: 15px;
+    }
+ 
+   /* Card 2 */
+  .card-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0;
+    
+  }
+
+ 
+  .card2 {
+    width: 300px;
+    height: 690px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px 0px;
+   
+  }
+
+  /* Styles for card title */
+  .card-title2 {
+    margin-bottom: 10px;
+    background-color: #F5DC71;
+    padding: 20px;
+    font-family: "Sedan", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  /* Styles for card content */
+  .card-content2 {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+  }
+  .card-content2 img{
+    max-height: 250px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
