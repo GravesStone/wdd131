@@ -85,7 +85,7 @@ main{
 
 /*container */
   .card-container {
-    display: flex;
+
     justify-content: space-around;
     gap: 200px;
     padding: 100px;
@@ -133,6 +133,7 @@ main{
     
     #title-header{
         text-align: center;
+        background-color: transparent;
     }
     hr {
         width: 35%;
@@ -149,13 +150,14 @@ main{
     }
     #flag-name{
         position: absolute;
-        bottom:-35%;
+        bottom:-45%;
         left: 10%;
+        z-index: 1;
     }
     .second-layer-image{
         font-size: 15px;
         color: #333;
-        display: grid;
+     
         padding:30px 20px;
         
     }
@@ -183,7 +185,7 @@ main{
  
   .card2 {
     width: 300px;
-    height: 635px;
+    height: 685px;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
