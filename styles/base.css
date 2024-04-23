@@ -74,7 +74,7 @@ header{
 }
 
 .menu li a:hover {
-    color: var(--background-header-yellow);
+    color: #F5DC71;
 }
 /*=============Main Section================*/
 main{
