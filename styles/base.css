@@ -1,9 +1,4 @@
-/*import fonts*/
-/*Roboto*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/*Sedan*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sedan&display=swap');
-:root{
+ :root{
     --background-header-blue : #073366;
     --background-footer-red: #A90A1D;
     --font-white:#fff;
@@ -150,7 +145,7 @@ main{
     }
     #flag-name{
         position: absolute;
-        bottom:-45%;
+        bottom:-47%;
         left: 10%;
         z-index: 1;
     }
