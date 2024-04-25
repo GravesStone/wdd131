@@ -10,8 +10,9 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
+    font-weight: 400;
   }
+
 header{
     text-align: center;
     font-size: 13px;
@@ -51,9 +52,7 @@ header{
     list-style-type: none;
     display: flex;
     gap: 290px;
-    font-family: "Sedan", serif;
-    font-weight: 300;
-    font-style: normal;
+   
     font-size: 18px;
 }
 
@@ -102,9 +101,7 @@ main{
     margin-bottom: 10px;
     background-color: #F5DC71;
     padding: 20px;
-    font-family: "Sedan", serif;
-    font-weight: 300;
-    font-style: normal;
+   
     font-size: 30px;
   }
 
@@ -192,9 +189,6 @@ main{
     margin-bottom: 10px;
     background-color: #F5DC71;
     padding: 20px;
-    font-family: "Sedan", serif;
-    font-weight: 300;
-    font-style: normal;
     font-size: 25px;
   }
 
