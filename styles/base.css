@@ -74,6 +74,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #f0f0f0;
+    
 }
 
 /*container */
@@ -84,7 +85,10 @@ main{
     padding: 100px;
 
   }
-
+  h2{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+  }
   /* Styles for individual cards */
   .card{
     width: 800px;
